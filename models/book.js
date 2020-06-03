@@ -13,10 +13,10 @@ const bookSchema = mongoose.Schema({
 
 module.exports = Book = mongoose.model('Book', bookSchema)
 
-module.exports.addBook = (newBook, callback ) => {
+module.exports.addBook = (newBook, callback) => {
     newBook.save(callback)
 }
 
-module.exports.getAll = (callback ) => {
+module.exports.getAll = (callback) => {
     Book.find({}, callback)
 }
