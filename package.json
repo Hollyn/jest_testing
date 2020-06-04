@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node main"
+    "start": "node index"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +17,7 @@
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.17"
+    "mongoose": "^5.9.17",
+    "nodemon": "^2.0.4"
   }
 }
